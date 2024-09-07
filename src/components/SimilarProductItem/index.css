@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.displaying-as-flex2 {
+  display: flex;
+  justify-content: space-between;
+}
+.image-styling {
+  width: 210px;
+  height: 150px;
+  border-radius: 5px;
+}
+.bg-card {
+  width: 210px;
+  margin: 10px;
+}
+.heading {
+  font-size: 15px;
+}
+
+.rating-styling2 {
+  background-color: #3b82f6;
+  font-size: 15px;
+  width: 70px;
+  color: white;
+  border-radius: 10px;
+
+  text-align: center;
+  margin-right: 10px;
+}

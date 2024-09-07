@@ -1,0 +1,79 @@
+/* Write your CSS here */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+@media (min-width: 768px) {
+  .card-container-for-products-items {
+    width: 60%;
+    display: flex;
+    margin: 60px;
+    padding: 10px;
+  }
+  .product-image {
+    width: 40%;
+    height: 80vh;
+    margin-right: 40px;
+    border-radius: 10px;
+  }
+}
+.product-heading {
+  font-size: 50px;
+  font-family: 'Roboto';
+  color: #171f46;
+}
+.paragraph-price {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #171f46;
+  font-weight: bold;
+}
+.rating-styling {
+  background-color: #3b82f6;
+  font-size: 20px;
+  width: 100px;
+  color: white;
+  border-radius: 10px;
+
+  text-align: center;
+  margin-right: 10px;
+}
+.start-image-styling {
+  width: 30px;
+  height: 30px;
+}
+.displaying-as-flex {
+  display: flex;
+}
+
+.description-for-filters {
+  color: #616e7c;
+}
+.pargarph-thicking {
+  font-weight: bold;
+}
+.quantity-buttons {
+  display: flex;
+}
+.inc-dec-buttons {
+  border: none;
+  background-color: transparent;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.button-add-to-cart {
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 7px;
+}
+.ul-conatiner {
+  list-style-type: none;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin: 60px;
+}
